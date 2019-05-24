@@ -1,5 +1,4 @@
-FROM ubuntu
-FROM golang:1.12.5
+FROM golang:1.12.5-alpine
 
 COPY ./host.go /go/src/app/
 WORKDIR /go/src/app
